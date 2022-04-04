@@ -1,0 +1,40 @@
+p, h1, h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.logo-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.bottom-icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20vw;
+  width: 18vw;
+}
+
+.icon-box {
+  width: fit-content;
+  padding: 0 25px;
+  align-items: left;
+}
+
+.title-box {
+  margin: 10px;
+  background-color: #282c34;
+  height: 600px;
+}
+
+.title {
+  color: white;
+  margin: 100px;
+  width: 25vw;
+}
+
+.title button {
+  padding: 15px;
+}
